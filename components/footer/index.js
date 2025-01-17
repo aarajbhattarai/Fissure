@@ -14,16 +14,16 @@ export const Footer = () => {
           Finsure is <br />
           <span className="contrast">Open source</span>
         </p>
-        {/* <div className={s['shameless-plug']}>
+        <div className={s['shameless-plug']}>
           <p className="h4">Studio Freight</p>
           <p className="p-s">
             An independent creative <br /> studio built on principle
           </p>
-        </div> */}
-        <p className={cn(s['last-line'], 'h1')}>
+        </div>
+        {/* <p className={cn(s['last-line'], 'h1')}>
           & open to <span className="hide-on-desktop">&nbsp;</span> features{' '}
           <br /> or sponsors
-        </p>
+        </p> */}
         <Button
           className={s.cta}
           arrow
@@ -41,45 +41,23 @@ export const Footer = () => {
           </p>
         </div> */}
         <p className={cn(s['first-line'], 'h1')}>
-          Finsure is <br />
-          <span className="contrast">Open source</span>
-          <br /> & open to <br /> features or sponsors
+          Let's <br />
+          <span className="contrast">Analyze Your Data</span>
         </p>
       </div>
       <div className={s.bottom}>
         <div className={s.links}>
-          <Link
-            className={cn(s.link, 'p-xs')}
-            href="https://twitter.com/darkroomdevs"
-          >
-            Twitter
-          </Link>
-          <Link
-            className={cn(s.link, 'p-xs')}
-            href="https://github.com/darkroomengineering"
-          >
-            GitHub
-          </Link>
-          <Link
-            className={cn(s.link, 'p-xs')}
-            href="https://darkroom.engineering/"
-          >
-            Website
-          </Link>
-          <Link className={cn(s.link, 'p-xs')} href="https://studiofreight.com">
-            Designed by Studio Freight
-          </Link>
+
         </div>
         <p className={cn('p-xs', s.tm)}>
-          <span>©</span> {new Date().getFullYear()} darkroom.engineering
+          <span>©</span> {new Date().getFullYear()} Refobe LLC
         </p>
         <Button
           className={cn(s.cta, 'hide-on-desktop')}
           arrow
-          icon={<GitHub />}
           href="https://github.com/darkroomengineering/Finsure"
         >
-          Let's build together
+        Schedule a Meeting
         </Button>
       </div>
     </footer>

@@ -208,9 +208,9 @@ export default function Home() {
     <Layout
       theme={theme}
       seo={{
-        title: 'Lenis – Get smooth or die trying',
+        title: 'Finsure',
         description:
-          'A Finsure library fresh out of the https://finsure.refobe.com.',
+          'Revolutionize Enterprise Intelligence with Finsure AI',
       }}
       className={s.home}
     >
@@ -224,12 +224,12 @@ export default function Home() {
           {/* <SFDR className={cn(s.icon, introOut && s.show)} /> */}
           <span className={cn(s.sub)}>
             <HeroTextIn introOut={introOut}>
-              <h2 className={cn('h3', s.subtitle)}>Finsure</h2>
+              <h2 className={cn('h3', s.subtitle)}>Transform Data into Intelligence</h2>
             </HeroTextIn>
             <HeroTextIn introOut={introOut}>
               <h2 className={cn('p-xs', s.tm)}>
-                <span>©</span> {new Date().getFullYear()}{' '}
-                https://finsure.refobe.com
+  
+              AI with Human-level knowledge on enterprise data
               </h2>
             </HeroTextIn>
           </span>
@@ -255,22 +255,22 @@ export default function Home() {
           </div>
           <h1 className={cn(s.description, 'p-s')}>
             <HeroTextIn introOut={introOut}>
-              <p className="p-s">A Finsure library</p>
+              <p className="p-s">Powering Intelligent Solutions Across Industries</p>
             </HeroTextIn>
-            <HeroTextIn introOut={introOut}>
+            {/* <HeroTextIn introOut={introOut}>
               <p className="p-s">fresh out of https://finsure.refobe.com</p>
             </HeroTextIn>
             <HeroTextIn introOut={introOut}>
               <p className="p-s">website designed by Studio Freight</p>
-            </HeroTextIn>
+            </HeroTextIn> */}
           </h1>
           <Button
             className={cn(s.cta, introOut && s.in)}
             arrow
-            icon={<GitHub />}
+            
             href="https://github.com/sponsors/darkroomengineering"
           >
-            become a sponsor
+            Try Finsure
           </Button>
         </div>
       </section>
@@ -334,29 +334,7 @@ export default function Home() {
               </p>
             </Parallax>
           </div>
-          <div className={s.comparison}>
-            <Parallax speed={0.5}>
-              <p className="p">
-                We have to give props to libraries like{' '}
-                <Link
-                  className="contrast semi-bold"
-                  href="https://github.com/locomotivemtl/locomotive-scroll"
-                >
-                  Locomotive Scroll
-                </Link>{' '}
-                and{' '}
-                <Link
-                  className="contrast semi-bold"
-                  href="https://greensock.com/docs/v3/Plugins/ScrollSmoother"
-                >
-                  GSAP ScrollSmoother
-                </Link>
-                . They’re well built and well documented – and we’ve used them a
-                lot. But they still have issues that keep them from being
-                bulletproof.
-              </p>
-            </Parallax>
-          </div>
+
         </div>
         <div className={s.cards} ref={cardsRectRef}>
           <HorizontalSlides>
