@@ -287,7 +287,7 @@ export default function Home() {
               <p className="p">
                 Transform how you interact with your enterprise data using
                 Finsure. 
-                <br />
+                <br /> <br />
                 Our AI-powered platform enables you to build
                 intelligent applications and agents that deliver secure,
                 scalable, and human-like cognition—unlocking actionable insights
@@ -302,7 +302,7 @@ export default function Home() {
                 Imagine you’re a bank manager tasked with analyzing terabytes of
                 transaction data to detect fraud. Traditional methods mean hours
                 of manual work and missed patterns. 
-                <br />
+                <br /> <br />
                 Finsure simplifies this
                 complexity by using AI to uncover trends, anomalies, and
                 insights you might never see otherwise. It turns overwhelming
@@ -318,12 +318,12 @@ export default function Home() {
                 Think of asking a colleague for a quick answer to a pressing
                 question, like "What were last quarter's top revenue-generating
                 services?"
-                <br />
+                <br /> <br />
                 Now imagine asking Finsure the same question—it
                 understands your intent, scans through millions of structured
                 and unstructured data points (reports, emails, logs), and gives
                 you the precise answer in seconds.
-                <br />
+                <br /> <br />
                  It feels as if you’re
                 speaking to a human but with the speed and accuracy of AI.
               </p>
@@ -336,7 +336,7 @@ export default function Home() {
                 Whether you’re a startup managing customer data or a global
                 financial institution analyzing decades of records, Finsure
                 adapts to your needs. 
-                <br />
+                <br /> <br />
                 With Retrieval-Augmented Generation (RAG)
                 technology, it delivers accurate answers in real-time by
                 blending advanced retrieval methods with AI generation. This
