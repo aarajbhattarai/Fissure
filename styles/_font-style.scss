@@ -6,7 +6,7 @@
   font-size: mobile-vw(56px);
 
   @include desktop {
-    font-size: desktop-vw(160px);
+    font-size: desktop-vw(130px);
     line-height: 85%;
   }
 
@@ -14,7 +14,7 @@
     font-size: mobile-vh(56px);
 
     @include desktop {
-      font-size: desktop-vh(160px);
+      font-size: desktop-vh(130px);
     }
   }
 }
@@ -27,7 +27,7 @@
   font-size: mobile-vw(56px);
 
   @include desktop {
-    font-size: desktop-vw(96px);
+    font-size: desktop-vw(66px);
     line-height: 83%;
   }
 
@@ -35,7 +35,7 @@
     font-size: mobile-vh(56px);
 
     @include desktop {
-      font-size: desktop-vh(96px);
+      font-size: desktop-vh(66px);
     }
   }
 }

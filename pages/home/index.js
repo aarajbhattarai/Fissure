@@ -342,30 +342,30 @@ export default function Home() {
         </div>
         <div className={s.cards} ref={cardsRectRef}>
           <HorizontalSlides>
-            <Card
+          <Card
               className={s.card}
               number="01"
-              text="Loss of performance budget due to using CSS transforms"
+              text="Simplify interactions with data through natural language."
             />
             <Card
               className={s.card}
               number="02"
-              text="Inaccessibility from no page search support and native scrollbar"
+              text="Deliver dynamic, real-time visualizations for better decision-making."
             />
             <Card
               className={s.card}
               number="03"
-              text="Non-negligible import costs (12.1kb - 24.34kb gzipped)"
+              text="Support strategic planning with actionable, data-driven insights."
             />
             <Card
               className={s.card}
               number="04"
-              text="Limited animation systems for complex, scroll-based animations"
+              text="Maximize ROI through reduced inefficiencies."
             />
             <Card
               className={s.card}
               number="05"
-              text="Erasing native APIs like Intersection-Observer, CSS Sticky, etc."
+              text="Drive innovation through data-driven decisions"
             />
           </HorizontalSlides>
         </div>
@@ -380,13 +380,13 @@ export default function Home() {
         <div className={s.inner}>
           <div className={s.zoom}>
             <h2 className={cn(s.first, 'h1 vh')}>
-              so we built <br />
-              <span className="contrast">web scrolling</span>
+              Driving Innovation<br />
+              <span className="contrast">With ai agents</span>
             </h2>
             <h2 className={cn(s.enter, 'h3 vh')}>
-              Enter <br /> Lenis
+              AI Agents <br /> With Human Level knowledge
             </h2>
-            <h2 className={cn(s.second, 'h1 vh')}>As it should be</h2>
+            <h2 className={cn(s.second, 'h1 vh')}>On Enterprise Data</h2>
           </div>
         </div>
       </section>
