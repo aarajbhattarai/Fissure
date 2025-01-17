@@ -463,7 +463,7 @@ export default function Home() {
               {/* <AppearTitle> */}
               Know
               <br />
-              <span className="grey">more about Finsure</span>
+              <span className="pink">more about Finsure</span>
               {/* </AppearTitle> */}
             </p>
           </aside>

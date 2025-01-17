@@ -75,7 +75,7 @@ export const FeatureCards = () => {
             {/* <AppearTitle> */}
             Intelligence That 
               <br />
-              <span className="grey">Evolves with Your Data</span>
+              <span className="pink">Evolves with Your Data</span>
             {/* </AppearTitle> */}
           </p>
         </aside>
