@@ -278,7 +278,7 @@ export default function Home() {
       <section className={s.why} data-lenis-scroll-snap-align="start">
         <div className="layout-grid">
           <h2 className={cn(s.sticky, 'h2')}>
-            <AppearTitle>Why Finsure?</AppearTitle>
+            <AppearTitle>AI with Human-level Cognition on enterprise data</AppearTitle>
           </h2>
           <aside className={s.features} ref={whyRectRef}>
             <div className={s.feature}>
@@ -292,7 +292,7 @@ export default function Home() {
             </div>
             <div className={s.feature}>
               <h3 className={cn(s.title, 'h4')}>
-                Create more immersive interfaces
+              Unlock Actionable Insights from Your Data
               </h3>
               <p className="p">
                 Unlock the creative potential and impact of your web

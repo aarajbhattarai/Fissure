@@ -1,6 +1,6 @@
 import cn from 'clsx'
 import { Button } from 'components/button'
-import { Link } from 'components/link'
+// import { Link } from 'components/link'
 import dynamic from 'next/dynamic'
 import s from './footer.module.scss'
 

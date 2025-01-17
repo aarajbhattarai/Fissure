@@ -22,11 +22,11 @@ export function AppearTitle({ children, visible = true }) {
     }
   }, [intersection])
 
-  const { width } = useWindowSize()
-  const isMobile = useMediaQuery('(max-width: 800px)')
+  // const { width } = useWindowSize()
+  // const isMobile = useMediaQuery('(max-width: 800px)')
 
   const [rectRef, rect] = useRect()
-
+  console.log(rect)
   // useEffect(() => {
   //   if (isMobile === false) {
   //     const splitted = new SplitText(el.current, {
