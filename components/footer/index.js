@@ -15,9 +15,9 @@ export const Footer = () => {
           <span className="contrast">Open source</span>
         </p>
         <div className={s['shameless-plug']}>
-          <p className="h4">Studio Freight</p>
+          <p className="h4">Refobe LLC</p>
           <p className="p-s">
-            An independent creative <br /> studio built on principle
+            Artificial Intelligence <br /> Data Analytics <br /> Web/App Development<br /> Digital Marketing
           </p>
         </div>
         {/* <p className={cn(s['last-line'], 'h1')}>
