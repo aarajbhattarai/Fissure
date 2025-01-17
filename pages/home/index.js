@@ -4,7 +4,7 @@ import cn from 'clsx'
 import { Button } from 'components/button'
 import { Card } from 'components/card'
 import { Title } from 'components/intro'
-import { Link } from 'components/link'
+// import { Link } from 'components/link'
 import { ListItem } from 'components/list-item'
 import { projects } from 'content/projects'
 import { useScroll } from 'hooks/use-scroll'
@@ -18,7 +18,7 @@ import { useIntersection, useWindowSize } from 'react-use'
 import s from './home.module.scss'
 
 // const SFDR = dynamic(() => import('icons/sfdr.svg'), { ssr: false })
-const GitHub = dynamic(() => import('icons/github.svg'), { ssr: false })
+// const GitHub = dynamic(() => import('icons/github.svg'), { ssr: false })
 
 const Parallax = dynamic(
   () => import('components/parallax').then((mod) => mod.Parallax),
@@ -224,7 +224,7 @@ export default function Home() {
           <span className={cn(s.sub)}>
             <HeroTextIn introOut={introOut}>
               <h2 className={cn('h3', s.subtitle)}>
-                Transform Data into Intelligence 
+                Transform Data into Intelligence
               </h2>
             </HeroTextIn>
             <HeroTextIn introOut={introOut}>
@@ -269,7 +269,7 @@ export default function Home() {
           <Button
             className={cn(s.cta, introOut && s.in)}
             arrow
-            href="https://github.com/sponsors/darkroomengineering"
+            href="https://www.refobe.com/contact-us"
           >
             Try Finsure
           </Button>
@@ -390,13 +390,13 @@ export default function Home() {
         <div className={s.inner}>
           <div className={cn('layout-block', s.intro)}>
             <p className="p-l">
-              With human-level cognition and advanced AI, it
-              transforms enterprise data into secure, scalable solutions for
-              intelligent decision-making.
+              With human-level cognition and advanced AI, it transforms
+              enterprise data into secure, scalable solutions for intelligent
+              decision-making.
               <br />
               <br />
-              Whether structured or unstructured,
-              your data holds answers—Finsure helps you unlock them.
+              Whether structured or unstructured, your data holds
+              answers—Finsure helps you unlock them.
             </p>
           </div>
         </div>

@@ -4,14 +4,14 @@ import cn from 'clsx'
 import { Card } from 'components/card'
 import { useScroll } from 'hooks/use-scroll'
 import { clamp, mapRange } from 'lib/maths'
-import dynamic from 'next/dynamic'
+// import dynamic from 'next/dynamic'
 import { useRef, useState } from 'react'
 import { useWindowSize } from 'react-use'
 
-const AppearTitle = dynamic(
-  () => import('components/appear-title').then((mod) => mod.AppearTitle),
-  { ssr: false }
-)
+// const AppearTitle = dynamic(
+//   () => import('components/appear-title').then((mod) => mod.AppearTitle),
+//   { ssr: false }
+// )
 
 import s from './feature-cards.module.scss'
 
@@ -72,11 +72,11 @@ export const FeatureCards = () => {
       <div className={cn('layout-block-inner', s.sticky)}>
         <aside className={s.title}>
           <p className="h3">
-            <AppearTitle>
+            {/* <AppearTitle> */}
               Finsure brings
               <br />
               <span className="grey">the heat</span>
-            </AppearTitle>
+            {/* </AppearTitle> */}
           </p>
         </aside>
         <div ref={element}>

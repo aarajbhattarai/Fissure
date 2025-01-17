@@ -28,7 +28,7 @@ export const Footer = () => {
           className={s.cta}
           arrow
           icon={<GitHub />}
-          href="https://github.com/sponsors/darkroomengineering"
+          href="https://www.refobe.com/contact-us"
         >
           Let's build together
         </Button>
@@ -46,9 +46,7 @@ export const Footer = () => {
         </p>
       </div>
       <div className={s.bottom}>
-        <div className={s.links}>
-
-        </div>
+        <div className={s.links}></div>
         <p className={cn('p-xs', s.tm)}>
           <span>©</span> {new Date().getFullYear()} Refobe LLC
         </p>
@@ -57,7 +55,7 @@ export const Footer = () => {
           arrow
           href="https://github.com/darkroomengineering/Finsure"
         >
-        Schedule a Meeting
+          Schedule a Meeting
         </Button>
       </div>
     </footer>
