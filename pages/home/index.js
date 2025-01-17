@@ -286,7 +286,9 @@ export default function Home() {
             <div className={s.feature}>
               <p className="p">
                 Transform how you interact with your enterprise data using
-                Finsure. Our AI-powered platform enables you to build
+                Finsure. 
+                <br />
+                Our AI-powered platform enables you to build
                 intelligent applications and agents that deliver secure,
                 scalable, and human-like cognition—unlocking actionable insights
                 from structured and unstructured data in real-time.
@@ -299,7 +301,9 @@ export default function Home() {
               <p className="p">
                 Imagine you’re a bank manager tasked with analyzing terabytes of
                 transaction data to detect fraud. Traditional methods mean hours
-                of manual work and missed patterns. Finsure simplifies this
+                of manual work and missed patterns. 
+                <br />
+                Finsure simplifies this
                 complexity by using AI to uncover trends, anomalies, and
                 insights you might never see otherwise. It turns overwhelming
                 data into actionable clarity, enabling you to make decisions
@@ -313,10 +317,14 @@ export default function Home() {
               <p className="p">
                 Think of asking a colleague for a quick answer to a pressing
                 question, like "What were last quarter's top revenue-generating
-                services?" Now imagine asking Finsure the same question—it
+                services?"
+                <br />
+                Now imagine asking Finsure the same question—it
                 understands your intent, scans through millions of structured
                 and unstructured data points (reports, emails, logs), and gives
-                you the precise answer in seconds. It feels as if you’re
+                you the precise answer in seconds.
+                <br />
+                 It feels as if you’re
                 speaking to a human but with the speed and accuracy of AI.
               </p>
             </div>
@@ -327,7 +335,9 @@ export default function Home() {
               <p className="p">
                 Whether you’re a startup managing customer data or a global
                 financial institution analyzing decades of records, Finsure
-                adapts to your needs. With Retrieval-Augmented Generation (RAG)
+                adapts to your needs. 
+                <br />
+                With Retrieval-Augmented Generation (RAG)
                 technology, it delivers accurate answers in real-time by
                 blending advanced retrieval methods with AI generation. This
                 means your business can scale without worrying about data
@@ -355,26 +365,21 @@ export default function Home() {
             <Card
               className={s.card}
               number="01"
-              text="Simplify interactions with data through natural language."
-            />
-            <Card
-              className={s.card}
-              number="02"
               text="Analyze Massive Data Sets Instantly"
             />
             <Card
               className={s.card}
-              number="03"
-              text="Get Precise Answers in Real-Time"
+              number="02"
+              text="Get Precise Answers in Real-Time through natural language."
             />
             <Card
               className={s.card}
-              number="04"
+              number="03"
               text="Turn Complexity Into Simplicity"
             />
             <Card
               className={s.card}
-              number="05"
+              number="04"
               text="Transform Structured & Unstructured Data"
             />
             <Card
@@ -384,22 +389,22 @@ export default function Home() {
             />
             <Card
               className={s.card}
-              number="05"
+              number="06"
               text="Automate Compliance & Reporting"
             />
             <Card
               className={s.card}
-              number="05"
+              number="07"
               text="Boost Productivity Across Teams"
             />
             <Card
               className={s.card}
-              number="05"
+              number="08"
               text="Deliver Financial Insights Effortlessly"
             />
             <Card
               className={s.card}
-              number="05"
+              number="09"
               text="Scale AI Across Enterprise Systems"
             />
           </HorizontalSlides>
@@ -421,7 +426,7 @@ export default function Home() {
             </h2>
             <h2 className={cn(s.enter, 'h3 vh')}>
               Turning Data
-              <br /> Into Decisions.
+              <br /> Into Decisions
             </h2>
             <h2 className={cn(s.second, 'h1 vh')}>On Enterprise Data</h2>
           </div>

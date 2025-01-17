@@ -6,22 +6,13 @@ export const projects = [
   },
   {
     title: 'Vision Based Facial Recognition System',
-    source: '',
-    href: 'https://gehry.getty.edu/',
+    source: 'Refobe',
+    href: 'https://refobe.com/',
   },
   {
     title: 'Mind Enabled Prothesis Arm',
-    source: '',
-    href: 'https://superpower.com/',
+    source: 'Refobe',
+    href: 'https://refobe.com/',
   },
-  {
-    title: 'D',
-    source: 'Basement Studio',
-    href: 'https://daylightcomputer.com/',
-  },
-  {
-    title: 'Lifeworld by Olafur Eliasson',
-    source: '',
-    href: 'https://lifeworld.wetransfer.com/',
-  },
+
 ]

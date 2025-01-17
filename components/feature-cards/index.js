@@ -16,27 +16,27 @@ import { useWindowSize } from 'react-use'
 import s from './feature-cards.module.scss'
 
 const cards = [
-  { text: 'Run scroll in the main thread' },
+  { text: 'Analyze Structured & Unstructured Data' },
 
   {
     text: (
       <>
-        Lightweight <br /> (under 4kb)
+        Deliver <br /> Actionable Customer Insights
       </>
     ),
   },
-  { text: `Made for ${new Date().getFullYear()}+` },
-  { text: 'Bring your own animation library' },
+  { text: 'Automate Compliance Processes' },
+  { text: 'Empower Real-Time Decision-Making' },
   {
-    text: <>CONTROL THE SCROLL EASING DURATION</>,
+    text: <>Build Secure, Scalable Systems</>,
   },
-  { text: 'Use any element as scroller' },
-  { text: 'Enjoy horizontal + vertical support' },
-  { text: 'Feel free to use “position: sticky” again' },
+  { text: 'Provide Contextual, Relevant Answers' },
+  { text: 'Integrate Seamlessly Across Systems' },
+  { text: 'Specialize in Financial Solutions' },
   {
-    text: 'touch support',
+    text: <>Maximize ROI with AI-Powered Growth</>,
   },
-]
+];
 
 export const FeatureCards = () => {
   const element = useRef()
@@ -73,9 +73,9 @@ export const FeatureCards = () => {
         <aside className={s.title}>
           <p className="h3">
             {/* <AppearTitle> */}
-              Finsure brings
+            Intelligence That 
               <br />
-              <span className="grey">the heat</span>
+              <span className="grey">Evolves with Your Data</span>
             {/* </AppearTitle> */}
           </p>
         </aside>
