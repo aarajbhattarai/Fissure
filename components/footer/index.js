@@ -11,13 +11,13 @@ export const Footer = () => {
     <footer className={cn('theme-light', s.footer)}>
       <div className={cn(s.top, 'layout-grid hide-on-mobile')}>
         <p className={cn(s['first-line'], 'h1')}>
-          Finsure is <br />
-          <span className="contrast">Open source</span>
+        Data Intelligence <br />
+          <span className="contrast"> Across Domains</span>
         </p>
         <div className={s['shameless-plug']}>
-          <p className="h4">Refobe LLC</p>
+          <p className="h4">Remember Us For</p>
           <p className="p-s">
-            Artificial Intelligence <br /> Data Analytics <br /> Web/App Development<br /> Digital Marketing
+            Artificial Intelligence <br /> Data Analytics <br /> Web Development<br />App Development<br/> Digital Marketing
           </p>
         </div>
         {/* <p className={cn(s['last-line'], 'h1')}>
@@ -27,10 +27,9 @@ export const Footer = () => {
         <Button
           className={s.cta}
           arrow
-          icon={<GitHub />}
           href="https://www.refobe.com/contact-us"
         >
-          Let's build together
+          Let's schedule a meeting
         </Button>
       </div>
       <div className={cn(s.top, 'layout-block hide-on-desktop')}>
