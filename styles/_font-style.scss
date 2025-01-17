@@ -1,6 +1,6 @@
 .h1 {
   font-weight: 900;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   line-height: 86%;
   font-size: mobile-vw(56px);
@@ -45,19 +45,19 @@
   font-weight: 900;
   text-transform: uppercase;
   line-height: 100%;
-  font-size: mobile-vw(20px);
+  font-size: mobile-vw(15px);
   letter-spacing: -0.01em;
 
   @include desktop {
-    letter-spacing: 0.01em;
-    font-size: desktop-vw(52px);
+    letter-spacing: 0.05em;
+    font-size: desktop-vw(32px);
   }
 
   &.vh {
     font-size: mobile-vh(20px);
 
     @include desktop {
-      font-size: desktop-vh(52px);
+      font-size: desktop-vh(32px);
     }
   }
 }
@@ -72,7 +72,7 @@
 
   @include desktop {
     font-size: desktop-vw(28px);
-    letter-spacing: -0.01em;
+    // letter-spacing: -0.01em;
   }
 }
 
