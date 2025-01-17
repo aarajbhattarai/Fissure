@@ -1,9 +1,9 @@
-import { useMediaQuery, useRect } from '@darkroom.engineering/hamo'
+import {  useRect } from '@darkroom.engineering/hamo'
 import cn from 'clsx'
 // import { gsap } from 'gsap'
 // import { SplitText } from 'gsap/dist/SplitText'
 import { useEffect, useRef, useState } from 'react'
-import { useIntersection, useWindowSize } from 'react-use'
+import { useIntersection} from 'react-use'
 import s from './appear-title.module.scss'
 
 // gsap.registerPlugin(SplitText)

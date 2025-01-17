@@ -278,7 +278,9 @@ export default function Home() {
       <section className={s.why} data-lenis-scroll-snap-align="start">
         <div className="layout-grid">
           <h2 className={cn(s.sticky, 'h2')}>
-            <AppearTitle>AI with Human-level Cognition on enterprise data</AppearTitle>
+            {/* <AppearTitle> */}
+              AI with Human-level Cognition on enterprise data
+              {/* </AppearTitle> */}
           </h2>
           <aside className={s.features} ref={whyRectRef}>
             <div className={s.feature}>
@@ -331,7 +333,9 @@ export default function Home() {
           <div className={s.highlight} data-lenis-scroll-snap-align="start">
             <Parallax speed={-0.5}>
               <p className="h2">
-                <AppearTitle>Rethinking Finsure</AppearTitle>
+                {/* <AppearTitle> */}
+                  Rethinking Finsure
+                  {/* </AppearTitle> */}
               </p>
             </Parallax>
           </div>
@@ -414,11 +418,11 @@ export default function Home() {
         <div className="layout-grid">
           <aside className={s.title}>
             <p className="h3">
-              <AppearTitle>
+              {/* <AppearTitle> */}
                 Know
                 <br />
                 <span className="grey">more about Finsure</span>
-              </AppearTitle>
+              {/* </AppearTitle> */}
             </p>
           </aside>
           <ul className={s.list}>
