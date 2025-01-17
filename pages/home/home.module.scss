@@ -86,9 +86,10 @@ $intro-duration: 2050ms;
 
     @include desktop {
       margin-top: desktop-vw(30px);
+      
       position: absolute;
       top: 0;
-      left: 2.5%;
+      left: 10%;
     }
   }
 

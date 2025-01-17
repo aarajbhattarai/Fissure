@@ -18,7 +18,6 @@ const nextConfig = {
   reactStrictMode: true,
   experimental: {
     optimizeCss: true,
-    legacyBrowsers: false,
     nextScriptWorkers: true,
   },
   compiler: {

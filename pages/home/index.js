@@ -209,8 +209,7 @@ export default function Home() {
       theme={theme}
       seo={{
         title: 'Finsure',
-        description:
-          'Revolutionize Enterprise Intelligence with Finsure AI',
+        description: 'Revolutionize Enterprise Intelligence with Finsure AI',
       }}
       className={s.home}
     >
@@ -224,12 +223,13 @@ export default function Home() {
           {/* <SFDR className={cn(s.icon, introOut && s.show)} /> */}
           <span className={cn(s.sub)}>
             <HeroTextIn introOut={introOut}>
-              <h2 className={cn('h3', s.subtitle)}>Transform Data into Intelligence</h2>
+              <h2 className={cn('h3', s.subtitle)}>
+                Transform Data into Intelligence 
+              </h2>
             </HeroTextIn>
             <HeroTextIn introOut={introOut}>
               <h2 className={cn('p-xs', s.tm)}>
-  
-              AI with Human-level knowledge on enterprise data
+                AI with Human-level knowledge on enterprise data
               </h2>
             </HeroTextIn>
           </span>
@@ -255,7 +255,9 @@ export default function Home() {
           </div>
           <h1 className={cn(s.description, 'p-s')}>
             <HeroTextIn introOut={introOut}>
-              <p className="p-s">Powering Intelligent Solutions Across Industries</p>
+              <p className="p-s">
+                Powering Intelligent Solutions Across Industries
+              </p>
             </HeroTextIn>
             {/* <HeroTextIn introOut={introOut}>
               <p className="p-s">fresh out of https://finsure.refobe.com</p>
@@ -267,7 +269,6 @@ export default function Home() {
           <Button
             className={cn(s.cta, introOut && s.in)}
             arrow
-            
             href="https://github.com/sponsors/darkroomengineering"
           >
             Try Finsure
@@ -334,7 +335,6 @@ export default function Home() {
               </p>
             </Parallax>
           </div>
-
         </div>
         <div className={s.cards} ref={cardsRectRef}>
           <HorizontalSlides>
@@ -390,16 +390,13 @@ export default function Home() {
         <div className={s.inner}>
           <div className={cn('layout-block', s.intro)}>
             <p className="p-l">
-              Lenis is an{' '}
-              <Link
-                className="contrast semi-bold"
-                href="https://github.com/darkroomengineering/lenis"
-              >
-                open-source library
-              </Link>{' '}
-              built to standardize scroll experiences and sauce up websites with
-              butter-smooth navigation, all while using the platform and keeping
-              it accessible.
+              With human-level cognition and advanced AI, it
+              transforms enterprise data into secure, scalable solutions for
+              intelligent decision-making.
+              <br />
+              <br />
+              Whether structured or unstructured,
+              your data holds answers—Finsure helps you unlock them.
             </p>
           </div>
         </div>
@@ -418,9 +415,9 @@ export default function Home() {
           <aside className={s.title}>
             <p className="h3">
               <AppearTitle>
-                Lenis
+                Know
                 <br />
-                <span className="grey">in use</span>
+                <span className="grey">more about Finsure</span>
               </AppearTitle>
             </p>
           </aside>

@@ -90,7 +90,7 @@ function Particles({
       },
       uColor: {
         // value: new Color('rgb(255, 152, 162)'),
-        value: new Color('rgb(255, 207, 206)'),
+        value: new Color('rgb(0, 7, 198)'),
         // value: new Color('rgb(255, 236, 234)'),
       },
       uScroll: {
