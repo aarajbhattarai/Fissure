@@ -229,7 +229,7 @@ export default function Home() {
             </HeroTextIn>
             <HeroTextIn introOut={introOut}>
               <h2 className={cn('p-xs', s.tm)}>
-                AI with Human-level knowledge on enterprise data
+                AI with Human-level knowledge for your enterprise data
               </h2>
             </HeroTextIn>
           </span>
@@ -279,50 +279,60 @@ export default function Home() {
         <div className="layout-grid">
           <h2 className={cn(s.sticky, 'h2')}>
             {/* <AppearTitle> */}
-              AI with Human-level Cognition on enterprise data
-              {/* </AppearTitle> */}
+            AI with Human-level Cognition on enterprise data
+            {/* </AppearTitle> */}
           </h2>
           <aside className={s.features} ref={whyRectRef}>
             <div className={s.feature}>
               <p className="p">
-                We’ve heard all the reasons to not use Finsure. It feels hacky.
-                It’s inaccessible. It’s not performant. It’s over-engineered.
-                And historically, those were all true. But we like to imagine
-                things as they could be, then build them. So, why should you use
-                Finsure?
+                Transform how you interact with your enterprise data using
+                Finsure. Our AI-powered platform enables you to build
+                intelligent applications and agents that deliver secure,
+                scalable, and human-like cognition—unlocking actionable insights
+                from structured and unstructured data in real-time.
               </p>
             </div>
             <div className={s.feature}>
               <h3 className={cn(s.title, 'h4')}>
-              Unlock Actionable Insights from Your Data
+                AI-Powered Data Insights: From Complexity to Clarity
               </h3>
               <p className="p">
-                Unlock the creative potential and impact of your web
-                experiences. Smoothing the scroll pulls users into the flow of
-                the experience that feels so substantial that they forget
-                they’re navigating a web page.
+                Imagine you’re a bank manager tasked with analyzing terabytes of
+                transaction data to detect fraud. Traditional methods mean hours
+                of manual work and missed patterns. Finsure simplifies this
+                complexity by using AI to uncover trends, anomalies, and
+                insights you might never see otherwise. It turns overwhelming
+                data into actionable clarity, enabling you to make decisions
+                faster and with confidence.
               </p>
             </div>
             <div className={s.feature}>
               <h3 className={cn(s.title, 'h4')}>
-                Normalize all your user inputs
+                Human-Like Cognition Across All Enterprise Data
               </h3>
               <p className="p">
-                Give all your users the same (dope) experience whether they’re
-                using trackpads, mouse wheels, or otherwise. With Finsure, you
-                control how silky, heavy, or responsive the experience should be
-                — no matter the input. Magic!
+                Think of asking a colleague for a quick answer to a pressing
+                question, like "What were last quarter's top revenue-generating
+                services?" Now imagine asking Finsure the same question—it
+                understands your intent, scans through millions of structured
+                and unstructured data points (reports, emails, logs), and gives
+                you the precise answer in seconds. It feels as if you’re
+                speaking to a human but with the speed and accuracy of AI.
               </p>
             </div>
             <div className={s.feature}>
               <h3 className={cn(s.title, 'h4')}>
-                Make your animations flawless
+                Scalable RAG-Based Solutions for Every Business
               </h3>
               <p className="p">
-                Synchronization with native scroll is not reliable. Those jumps
-                and delays with scroll-linked animations are caused by
-                multi-threading, where modern browsers run animations/effects
-                asynchronously with the scroll. Finsure fixes this.
+                Whether you’re a startup managing customer data or a global
+                financial institution analyzing decades of records, Finsure
+                adapts to your needs. With Retrieval-Augmented Generation (RAG)
+                technology, it delivers accurate answers in real-time by
+                blending advanced retrieval methods with AI generation. This
+                means your business can scale without worrying about data
+                overload—Finsure grows with you and ensures performance is never
+                compromised.
               </p>
             </div>
           </aside>
@@ -334,15 +344,15 @@ export default function Home() {
             <Parallax speed={-0.5}>
               <p className="h2">
                 {/* <AppearTitle> */}
-                  Rethinking Finsure
-                  {/* </AppearTitle> */}
+                Clarity. Cognition. Confidence.
+                {/* </AppearTitle> */}
               </p>
             </Parallax>
           </div>
         </div>
         <div className={s.cards} ref={cardsRectRef}>
           <HorizontalSlides>
-          <Card
+            <Card
               className={s.card}
               number="01"
               text="Simplify interactions with data through natural language."
@@ -350,22 +360,47 @@ export default function Home() {
             <Card
               className={s.card}
               number="02"
-              text="Deliver dynamic, real-time visualizations for better decision-making."
+              text="Analyze Massive Data Sets Instantly"
             />
             <Card
               className={s.card}
               number="03"
-              text="Support strategic planning with actionable, data-driven insights."
+              text="Get Precise Answers in Real-Time"
             />
             <Card
               className={s.card}
               number="04"
-              text="Maximize ROI through reduced inefficiencies."
+              text="Turn Complexity Into Simplicity"
             />
             <Card
               className={s.card}
               number="05"
-              text="Drive innovation through data-driven decisions"
+              text="Transform Structured & Unstructured Data"
+            />
+            <Card
+              className={s.card}
+              number="05"
+              text="Empower Smarter, Faster Decisions"
+            />
+            <Card
+              className={s.card}
+              number="05"
+              text="Automate Compliance & Reporting"
+            />
+            <Card
+              className={s.card}
+              number="05"
+              text="Boost Productivity Across Teams"
+            />
+            <Card
+              className={s.card}
+              number="05"
+              text="Deliver Financial Insights Effortlessly"
+            />
+            <Card
+              className={s.card}
+              number="05"
+              text="Scale AI Across Enterprise Systems"
             />
           </HorizontalSlides>
         </div>
@@ -380,11 +415,13 @@ export default function Home() {
         <div className={s.inner}>
           <div className={s.zoom}>
             <h2 className={cn(s.first, 'h1 vh')}>
-              Driving Innovation<br />
+              Driving Innovation
+              <br />
               <span className="contrast">With ai agents</span>
             </h2>
             <h2 className={cn(s.enter, 'h3 vh')}>
-              AI Agents <br /> With Human Level knowledge
+              Turning Data
+              <br /> Into Decisions.
             </h2>
             <h2 className={cn(s.second, 'h1 vh')}>On Enterprise Data</h2>
           </div>
@@ -394,13 +431,13 @@ export default function Home() {
         <div className={s.inner}>
           <div className={cn('layout-block', s.intro)}>
             <p className="p-l">
-              With human-level cognition and advanced AI, it transforms
-              enterprise data into secure, scalable solutions for intelligent
-              decision-making.
+              Finsure is not just a tool—it’s a transformation engine. Designed
+              with the modern enterprise in mind, it harnesses advanced AI
+              technologies to empower teams with instant insights and seamless
+              interactions.
               <br />
               <br />
-              Whether structured or unstructured, your data holds
-              answers—Finsure helps you unlock them.
+              Finsure doesn’t just analyze your data—it creates value from it.
             </p>
           </div>
         </div>
@@ -419,9 +456,9 @@ export default function Home() {
           <aside className={s.title}>
             <p className="h3">
               {/* <AppearTitle> */}
-                Know
-                <br />
-                <span className="grey">more about Finsure</span>
+              Know
+              <br />
+              <span className="grey">more about Finsure</span>
               {/* </AppearTitle> */}
             </p>
           </aside>

@@ -237,7 +237,7 @@ const steps = [
 // const thresholds = [0, 1000, 2000, 3000, 4000, 5000]
 
 const material = new MeshPhysicalMaterial({
-  color: new Color('#FF98A2'),
+  color: new Color('#1682c6'),
   metalness: 1,
   roughness: 0.4,
   wireframe: true,
@@ -308,7 +308,7 @@ export function Arm() {
         value: 1,
         max: 1,
       },
-      lightsColor: '#FF98A2',
+      lightsColor: '#1682c6',
       ambientColor: '#0E0E0E',
     }),
     []
@@ -382,8 +382,8 @@ export function Arm() {
       setLights({
         light1Intensity: 0.35,
         light2Intensity: 0.15,
-        lightsColor: '#FF98A2',
-        ambientColor: '#FF98A2',
+        lightsColor: '#59bfff',
+        ambientColor: '#59bfff',
       })
       setMaterial({
         color: '#b0b0b0',
@@ -399,8 +399,8 @@ export function Arm() {
       })
       setMaterial({
         color: '#efefef',
-        roughness: 0.4,
-        metalness: 0.6,
+        roughness: 0.7,
+        metalness: 0.9,
       })
     }
   }, [step])

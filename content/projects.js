@@ -1,21 +1,21 @@
 export const projects = [
   {
-    title: 'Deso',
-    source: 'Studio Freight',
-    href: 'https://deso.com',
+    title: 'Krayasa',
+    source: 'Krayasa',
+    href: 'https://www.krayasa.com',
   },
   {
-    title: 'Sculpting Harmony',
-    source: 'Resn',
+    title: 'Vision Based Facial Recognition System',
+    source: '',
     href: 'https://gehry.getty.edu/',
   },
   {
-    title: 'Superpower',
+    title: 'Mind Enabled Prothesis Arm',
     source: '',
     href: 'https://superpower.com/',
   },
   {
-    title: 'Daylight Computer',
+    title: 'D',
     source: 'Basement Studio',
     href: 'https://daylightcomputer.com/',
   },
