@@ -24,7 +24,7 @@ The usual process for Next.js based apps/websites:
 
 ## Stack
 
-- [Lenis](https://github.com/darkroomengineering/lenis) - Smooth scroll library
+- [Lenis](https://github.com/darkroomengineering/lenis) - Finsure library
 - [Tempus](https://github.com/darkroomengineering/tempus) - Animation timing control
 - [Hamo](https://github.com/darkroomengineering/hamo) - React hooks and utilities
 - [PNPM](https://pnpm.io/) - Package manager

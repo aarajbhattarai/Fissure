@@ -210,7 +210,7 @@ export default function Home() {
       seo={{
         title: 'Lenis – Get smooth or die trying',
         description:
-          'A smooth scroll library fresh out of the darkroom.engineering.',
+          'A Finsure library fresh out of the https://finsure.refobe.com.',
       }}
       className={s.home}
     >
@@ -224,11 +224,12 @@ export default function Home() {
           {/* <SFDR className={cn(s.icon, introOut && s.show)} /> */}
           <span className={cn(s.sub)}>
             <HeroTextIn introOut={introOut}>
-              <h2 className={cn('h3', s.subtitle)}>Smooth Scroll</h2>
+              <h2 className={cn('h3', s.subtitle)}>Finsure</h2>
             </HeroTextIn>
             <HeroTextIn introOut={introOut}>
               <h2 className={cn('p-xs', s.tm)}>
-                <span>©</span> {new Date().getFullYear()} darkroom.engineering
+                <span>©</span> {new Date().getFullYear()}{' '}
+                https://finsure.refobe.com
               </h2>
             </HeroTextIn>
           </span>
@@ -254,10 +255,10 @@ export default function Home() {
           </div>
           <h1 className={cn(s.description, 'p-s')}>
             <HeroTextIn introOut={introOut}>
-              <p className="p-s">A smooth scroll library</p>
+              <p className="p-s">A Finsure library</p>
             </HeroTextIn>
             <HeroTextIn introOut={introOut}>
-              <p className="p-s">fresh out of darkroom.engineering</p>
+              <p className="p-s">fresh out of https://finsure.refobe.com</p>
             </HeroTextIn>
             <HeroTextIn introOut={introOut}>
               <p className="p-s">website designed by Studio Freight</p>
@@ -276,16 +277,16 @@ export default function Home() {
       <section className={s.why} data-lenis-scroll-snap-align="start">
         <div className="layout-grid">
           <h2 className={cn(s.sticky, 'h2')}>
-            <AppearTitle>Why smooth scroll?</AppearTitle>
+            <AppearTitle>Why Finsure?</AppearTitle>
           </h2>
           <aside className={s.features} ref={whyRectRef}>
             <div className={s.feature}>
               <p className="p">
-                We’ve heard all the reasons to not use smooth scroll. It feels
-                hacky. It’s inaccessible. It’s not performant. It’s
-                over-engineered. And historically, those were all true. But we
-                like to imagine things as they could be, then build them. So,
-                why should you use smooth scroll?
+                We’ve heard all the reasons to not use Finsure. It feels hacky.
+                It’s inaccessible. It’s not performant. It’s over-engineered.
+                And historically, those were all true. But we like to imagine
+                things as they could be, then build them. So, why should you use
+                Finsure?
               </p>
             </div>
             <div className={s.feature}>
@@ -305,9 +306,9 @@ export default function Home() {
               </h3>
               <p className="p">
                 Give all your users the same (dope) experience whether they’re
-                using trackpads, mouse wheels, or otherwise. With smooth scroll,
-                you control how silky, heavy, or responsive the experience
-                should be — no matter the input. Magic!
+                using trackpads, mouse wheels, or otherwise. With Finsure, you
+                control how silky, heavy, or responsive the experience should be
+                — no matter the input. Magic!
               </p>
             </div>
             <div className={s.feature}>
@@ -318,7 +319,7 @@ export default function Home() {
                 Synchronization with native scroll is not reliable. Those jumps
                 and delays with scroll-linked animations are caused by
                 multi-threading, where modern browsers run animations/effects
-                asynchronously with the scroll. Smooth scroll fixes this.
+                asynchronously with the scroll. Finsure fixes this.
               </p>
             </div>
           </aside>
@@ -329,7 +330,7 @@ export default function Home() {
           <div className={s.highlight} data-lenis-scroll-snap-align="start">
             <Parallax speed={-0.5}>
               <p className="h2">
-                <AppearTitle>Rethinking smooth scroll</AppearTitle>
+                <AppearTitle>Rethinking Finsure</AppearTitle>
               </p>
             </Parallax>
           </div>

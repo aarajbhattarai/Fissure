@@ -11,7 +11,7 @@ export const Footer = () => {
     <footer className={cn('theme-light', s.footer)}>
       <div className={cn(s.top, 'layout-grid hide-on-mobile')}>
         <p className={cn(s['first-line'], 'h1')}>
-          Lenis is <br />
+          Finsure is <br />
           <span className="contrast">Open source</span>
         </p>
         {/* <div className={s['shameless-plug']}>
@@ -41,7 +41,7 @@ export const Footer = () => {
           </p>
         </div> */}
         <p className={cn(s['first-line'], 'h1')}>
-          Lenis is <br />
+          Finsure is <br />
           <span className="contrast">Open source</span>
           <br /> & open to <br /> features or sponsors
         </p>
@@ -77,7 +77,7 @@ export const Footer = () => {
           className={cn(s.cta, 'hide-on-desktop')}
           arrow
           icon={<GitHub />}
-          href="https://github.com/darkroomengineering/lenis"
+          href="https://github.com/darkroomengineering/Finsure"
         >
           Let's build together
         </Button>

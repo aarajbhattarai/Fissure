@@ -36,8 +36,8 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0
       gsap:
-        specifier: npm:@gsap/business@^3.12.4
-        version: '@gsap/business@3.12.5'
+        specifier: 3.12.4
+        version: 3.12.4
       lenis:
         specifier: ^1.1.13
         version: 1.1.16(react@18.3.1)
@@ -104,7 +104,7 @@ importers:
         version: 1.1.2(eslint-plugin-import@2.31.0(eslint@8.36.0))
       eslint-plugin-import:
         specifier: ^2.27.5
-        version: 2.31.0(@typescript-eslint/parser@5.62.0(eslint@8.36.0)(typescript@4.9.5))(eslint-import-resolver-typescript@3.6.3(@typescript-eslint/parser@5.62.0(eslint@8.36.0)(typescript@4.9.5))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0(eslint@8.36.0))(eslint@8.36.0))(eslint@8.36.0)
+        version: 2.31.0(@typescript-eslint/parser@5.62.0(eslint@8.36.0)(typescript@4.9.5))(eslint-import-resolver-typescript@3.6.3)(eslint@8.36.0)
       next-pwa:
         specifier: 5.6.0
         version: 5.6.0(@babel/core@7.26.0)(next@14.2.17(@babel/core@7.26.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.6))(webpack@5.96.1)
@@ -744,9 +744,6 @@ packages:
 
   '@floating-ui/utils@0.2.8':
     resolution: {integrity: sha512-kym7SodPp8/wloecOpcmSnWJsK7M0E5Wg8UcFA+uO4B9s5d0ywXOEro/8HM9x0rW+TljRzul/14UYz3TleT3ig==}
-
-  '@gsap/business@3.12.5':
-    resolution: {integrity: sha512-MaoS/j4c+ZHCzkA0C1hWah3E0PTBOaevgJCD4ccad7FePaFcVyC1RSXi67GZQNntMTb03crXB+8CKXL490L6GQ==}
 
   '@humanwhocodes/config-array@0.11.14':
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
@@ -2497,6 +2494,9 @@ packages:
 
   grapheme-splitter@1.0.4:
     resolution: {integrity: sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==}
+
+  gsap@3.12.4:
+    resolution: {integrity: sha512-1ByAq8dD0W4aBZ/JArgaQvc0gyUfkGkP8mgAQa0qZGdpOKlSOhOf+WNXjoLimKaKG3Z4Iu6DKZtnyszqQeyqWQ==}
 
   gzip-size@6.0.0:
     resolution: {integrity: sha512-ax7ZYomf6jqPTQ4+XCpUGyXKHk5WweS+e05MBO4/y3WJ5RkmPXNKvX+bx1behVILVwr6JSQvZAku021CHPXG3Q==}
@@ -4934,8 +4934,6 @@ snapshots:
 
   '@floating-ui/utils@0.2.8': {}
 
-  '@gsap/business@3.12.5': {}
-
   '@humanwhocodes/config-array@0.11.14':
     dependencies:
       '@humanwhocodes/object-schema': 2.0.3
@@ -6402,7 +6400,7 @@ snapshots:
       eslint: 8.36.0
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.6.3(@typescript-eslint/parser@5.62.0(eslint@8.36.0)(typescript@4.9.5))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0(eslint@8.36.0))(eslint@8.36.0)
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@5.62.0(eslint@8.36.0)(typescript@4.9.5))(eslint-import-resolver-typescript@3.6.3(@typescript-eslint/parser@5.62.0(eslint@8.36.0)(typescript@4.9.5))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0(eslint@8.36.0))(eslint@8.36.0))(eslint@8.36.0)
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@5.62.0(eslint@8.36.0)(typescript@4.9.5))(eslint-import-resolver-typescript@3.6.3)(eslint@8.36.0)
       eslint-plugin-jsx-a11y: 6.10.2(eslint@8.36.0)
       eslint-plugin-react: 7.37.2(eslint@8.36.0)
       eslint-plugin-react-hooks: 4.6.2(eslint@8.36.0)
@@ -6419,7 +6417,7 @@ snapshots:
 
   eslint-import-resolver-alias@1.1.2(eslint-plugin-import@2.31.0(eslint@8.36.0)):
     dependencies:
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@5.62.0(eslint@8.36.0)(typescript@4.9.5))(eslint-import-resolver-typescript@3.6.3(@typescript-eslint/parser@5.62.0(eslint@8.36.0)(typescript@4.9.5))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0(eslint@8.36.0))(eslint@8.36.0))(eslint@8.36.0)
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@5.62.0(eslint@8.36.0)(typescript@4.9.5))(eslint-import-resolver-typescript@3.6.3)(eslint@8.36.0)
 
   eslint-import-resolver-node@0.3.9:
     dependencies:
@@ -6441,7 +6439,7 @@ snapshots:
       is-bun-module: 1.2.1
       is-glob: 4.0.3
     optionalDependencies:
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@5.62.0(eslint@8.36.0)(typescript@4.9.5))(eslint-import-resolver-typescript@3.6.3(@typescript-eslint/parser@5.62.0(eslint@8.36.0)(typescript@4.9.5))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0(eslint@8.36.0))(eslint@8.36.0))(eslint@8.36.0)
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@5.62.0(eslint@8.36.0)(typescript@4.9.5))(eslint-import-resolver-typescript@3.6.3)(eslint@8.36.0)
     transitivePeerDependencies:
       - '@typescript-eslint/parser'
       - eslint-import-resolver-node
@@ -6459,7 +6457,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-import@2.31.0(@typescript-eslint/parser@5.62.0(eslint@8.36.0)(typescript@4.9.5))(eslint-import-resolver-typescript@3.6.3(@typescript-eslint/parser@5.62.0(eslint@8.36.0)(typescript@4.9.5))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0(eslint@8.36.0))(eslint@8.36.0))(eslint@8.36.0):
+  eslint-plugin-import@2.31.0(@typescript-eslint/parser@5.62.0(eslint@8.36.0)(typescript@4.9.5))(eslint-import-resolver-typescript@3.6.3)(eslint@8.36.0):
     dependencies:
       '@rtsao/scc': 1.1.0
       array-includes: 3.1.8
@@ -6913,6 +6911,8 @@ snapshots:
   graceful-fs@4.2.11: {}
 
   grapheme-splitter@1.0.4: {}
+
+  gsap@3.12.4: {}
 
   gzip-size@6.0.0:
     dependencies:

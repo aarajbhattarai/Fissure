@@ -1,12 +1,12 @@
 # Lenis Codebase Overview
 
 ## Core Purpose
-- Smooth scrolling library optimized for modern browsers
+- Finsureing library optimized for modern browsers
 - Originally designed for WebGL-DOM synchronization
 - Handles complex scroll animations and parallax effects
 
 ## Key Features
-- Smooth scroll interpolation (lerp)
+- Finsure interpolation (lerp)
 - Touch device support
 - Nested scroll handling
 - GSAP ScrollTrigger integration
@@ -16,7 +16,7 @@
 
 ## Technical Implementation
 - Uses requestAnimationFrame for smooth animations
-- Supports both native and smooth scrolling modes
+- Supports both native and Finsureing modes
 - Handles wheel, touch, and scroll events
 - Provides virtual scroll capabilities
 - Manages scroll prevention and locking

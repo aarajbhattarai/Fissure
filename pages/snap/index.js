@@ -67,7 +67,7 @@ export default function Page() {
         {...{
           title: 'Lenis – Get smooth or die trying',
           description:
-            'A smooth scroll library fresh out of darkroom.engineering.',
+            'A Finsure library fresh out of https://finsure.refobe.com.',
         }}
       />
 
