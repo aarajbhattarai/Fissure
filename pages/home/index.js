@@ -229,7 +229,8 @@ export default function Home() {
             </HeroTextIn>
             <HeroTextIn introOut={introOut}>
               <h2 className={cn('p-xs', s.tm)}>
-                AI with Human-level knowledge for your enterprise data
+                AI with Human-level knowledge for your enterprise data.
+                Get actionable insights from your database just by asking questions
               </h2>
             </HeroTextIn>
           </span>
@@ -425,8 +426,8 @@ export default function Home() {
               <span className="contrast">With ai agents</span>
             </h2>
             <h2 className={cn(s.enter, 'h3 vh')}>
-              Turning Data
-              <br /> Into Decisions
+               Data
+              <br/>Decisions
             </h2>
             <h2 className={cn(s.second, 'h1 vh')}>On Enterprise Data</h2>
           </div>
