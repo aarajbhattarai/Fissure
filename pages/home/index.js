@@ -224,7 +224,7 @@ export default function Home() {
           <span className={cn(s.sub)}>
             <HeroTextIn introOut={introOut}>
               <h2 className={cn('h3', s.subtitle)}>
-                Transform Data into Intelligence
+                Transform Your Enterprise Data into Intelligence
               </h2>
             </HeroTextIn>
             <HeroTextIn introOut={introOut}>
