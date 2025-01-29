@@ -88,7 +88,7 @@ export const Title = ({ className }) => {
     <div className={className}>
       <span 
         className={cn(introOut && s.translate, s.mobile)}
-        style={{ color: 'var(--pink)', fontWeight: 'bold', fontSize: '15rem', }}
+        style={{ color: 'var(--pink)', fontWeight: 'bold', fontSize: '7rem', }}
       >
         FINSURE
       </span>
